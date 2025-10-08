@@ -4,7 +4,7 @@
 
 body{
     background-color: azure;
-    text-align:justify ;
+    text-align:left ;
 }
 a.externo::after{
     content: '\1F517';
@@ -63,10 +63,12 @@ main a:hover {
 }
 
 nav {
-    text-align: right;
+    text-align: left;
     padding: 10px;
+    display: block;
 }
 nav > a {
+    text-align: left;
     margin-right: 10px; 
     transition-duration: 1s;   
 }
